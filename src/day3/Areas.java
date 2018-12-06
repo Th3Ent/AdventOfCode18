@@ -5,10 +5,6 @@ import java.util.List;
 
 import day1.FilePicker;
 
-
-
-
-
 public class Areas {
 
 	List<List<Integer> > mapa = new ArrayList<List<Integer> >();
@@ -63,14 +59,10 @@ public class Areas {
 		}
 		
 		return colisiones;
-		
-		
 	}
 	
 	public String getNoColision() {
-		
 		String sol = "";
-		
 		for(int i = 0; i < sq.size(); i++) {
 			boolean noColision = true;
 			for(int k = sq.get(i).x ; k < sq.get(i).x + sq.get(i).width ; k++) {
@@ -93,7 +85,6 @@ public class Areas {
 		
 		Areas ar = new Areas(args[0]);
 		System.out.println(ar.getColisions());
-//		System.out.println(ar.getColExp() + " Experimental");
 		System.out.println(ar.getNoColision());
 	}
 }

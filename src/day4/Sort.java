@@ -147,8 +147,6 @@ public class Sort {
 				}
 			}
 				
-			
-
 		}
 		
 		for(int i = 0; i < minits.size() ; i++) {
